@@ -5,6 +5,6 @@ module.exports = {
   },
 
   text: {
-    productTitle: "Products",
+    productTitle: "Swag Labs",
   },
 };

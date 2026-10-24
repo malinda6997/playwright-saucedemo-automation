@@ -12,11 +12,8 @@ test.beforeEach(async ({ page }) => {
 
 test('Login User Test', async ({ page }) => { 
 
-  await page.getByPlaceholder("Username").fill(users.standardUser.username);
-  await page.getByPlaceholder("Password").fill(users.standardUser.password);
-  await page.getByRole("button", {name:"Login"}).click();
-
+  await loginPage.login();
   await expect(page).toHaveURL(constants.urls.inventory);
-  await expect(page).toHaveTitle("Swag Labs");
+  await expect(page).toHaveTitle(constants.text.productTitle);
 
 }); 
