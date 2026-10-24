@@ -1,12 +1,10 @@
 module.exports = {
   urls: {
     login: "/",
-    inventory: "/inventory.html",
+    inventory: "https://www.saucedemo.com/inventory.html",
   },
 
-  text:{
+  text: {
     productTitle: "Products",
-  }
-
-
+  },
 };

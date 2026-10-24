@@ -17,6 +17,6 @@ test('Login User Test', async ({ page }) => {
   await page.getByRole("button", {name:"Login"}).click();
 
   await expect(page).toHaveURL(constants.urls.inventory);
-  await expect(page.locator('title')).toHaveText(constants.text.productTitle);
+  await expect(page).toHaveTitle("Swag Labs");
 
 }); 
