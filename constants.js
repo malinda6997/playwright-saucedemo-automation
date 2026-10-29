@@ -6,5 +6,7 @@ module.exports = {
 
   text: {
     productTitle: "Swag Labs",
+    sauceLabsBackpack: "Sauce Labs Backpack",
+    sauceLabsBikeLight: "Sauce Labs Bike Light",
   },
 };

@@ -27,7 +27,7 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: "html",
-  /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
+  /* Shared settings for all the projects below. See h ttps://playwright.dev/docs/api/class-testoptions. */
   use: {
     ...devices["Desktop Chrome"],
     headless: false,
